@@ -8,7 +8,7 @@ def CNN(X_train, y_train, X_test, y_test, epoc=10, output=10):
     import numpy as np
 
     model = Sequential()
-
+    # Code by Aman Rohi
     # 1st convolutional Layer
     model.add(Conv2D(64, (3, 3), input_shape=X_train.shape[1:]))
     model.add(Activation("relu"))
